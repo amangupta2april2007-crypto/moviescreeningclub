@@ -35,6 +35,9 @@ const QRSchema = new mongoose.Schema({
   OTP: {
     type: String
   },
+  label: {
+    type: String
+  },
   used: {
     type: Boolean,
     default: false
